@@ -1,0 +1,26 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Downloaded datasets, generated results, and model checkpoints
+data/
+pretrained_model/
+results/
+*.pth
+*.pt
+*.ckpt
+
